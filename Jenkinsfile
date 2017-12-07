@@ -1,3 +1,5 @@
+properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/vasuramisetti/JenkinsPipeline.git/‘],pipelineTriggers([githubPush()])])
+
 pipeline {
     agent any
     stages {
